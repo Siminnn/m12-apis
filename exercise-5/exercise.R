@@ -14,7 +14,7 @@ GetReview <- function(movie) {
   
   
   # Request data using your search query
-  
+  request <- fromJSON(body)
   
   # What type of variable does this return?
   
